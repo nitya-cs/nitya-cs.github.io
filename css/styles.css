@@ -1,0 +1,123 @@
+/* Styles for Headings */
+h1 {
+  font-family: 'Alegreya', serif;
+  font-size: 2.5em;
+  text-align: center;
+  padding-left: 10%;
+}
+
+h2 {
+  font-family: 'Alegreya', serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Alegreya', serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Basic styles for elements */
+section {
+  margin-bottom: 20px;
+}
+
+/* Basic styles for text */
+/* Style for description text */
+.desc {
+  font-size: 0.85em;
+  margin-top: -5px;
+}
+
+/* Style for introduction text */
+.intro {
+  text-align: center;
+  font-size: 1.3em;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+/* Style for tagline text */
+.tagline {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/* Styles for contact information hyperlinks */
+.contact {
+  color: #0077E1;
+  text-decoration: underline;
+}
+
+/* Styles for Site Header */
+.navbar {
+  font-size: 1.2em;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+  background-color: #FFFAF9;
+  box-shadow: 2px 2px 2px #F8F8F8;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 2em;
+}
+
+.nav-link, .navbar-brand {
+  text-decoration: none;
+}
+
+/* Style for button holder for next and back buttons*/
+.button-holder {
+  width: 300px;
+  margin: 50px auto;
+}
+
+/* Styles for Buttons*/
+/* Styles for next and back buttons*/
+.button {
+  display: inline-block;
+  width: 40%;
+  margin: 2.5%;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #696969;
+  background-color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Styles for exit button*/
+.exit {
+  margin: 1.5%;
+  font-size: 2.5em;
+  line-height: 75px;
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+.exit:hover {
+  text-decoration: none;
+  color: #8E8D8D;
+}
+
+/* Styles for meet button*/
+.meet-button {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.meet-button:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}

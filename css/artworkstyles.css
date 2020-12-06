@@ -1,0 +1,101 @@
+/* Styles for Artwork page*/
+/* Margin for sections in art page*/
+.art-sec {
+  margin-bottom: 30px;
+}
+
+/* Styles for slideshow */
+.slideshow {
+  width: 400px;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+.slide {
+  display: none;
+}
+
+/* Styles for text in artwork description*/
+.art-desc {
+  width: 30%;
+  min-width: 250px;
+  float: right;
+  margin: 5% 10%;
+  padding: 20px 3%;
+  font-size: 1.2em;
+  color: #F1F1F1;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+p.art-title {
+  font-family: 'Sacramento', cursive;
+  font-weight: 500;
+  font-size: 2.8em;
+  color: #FFFFFF;
+}
+
+h2.art-title {
+  margin: 50px 10px 0px 10px;
+}
+
+/* Styles for artwork images */
+#art1i {
+  width: 100%;
+  margin: 5%;
+}
+
+#art1ii {
+  background-color: #C0A48E;
+  margin-left: 100px;
+}
+
+#art2 {
+  width: 100%;
+}
+
+#art3 {
+  height: 500px;
+  background-image: url("../images/art3.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* To set artwork image to 50% width*/
+.artimg40 {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* To set artwork image to 80% width*/
+.artimg80 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* To set artwork image to 90% width*/
+.artimg90 {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Media Queries */
+/* For devices smaller than large */
+@media (max-width: 992px) {
+
+  /* Adjusting margins for art page */
+  #art1i, #art1ii {
+    margin: auto;
+    width: 90%;
+  }
+
+  /* Adjusting font size for art titles */
+  p.art-title {
+    font-size: 2em;
+  }
+}

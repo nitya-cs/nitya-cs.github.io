@@ -1,0 +1,190 @@
+/* Styles for Work Pages*/
+
+/* Styles for individual work pages */
+/* Main section to hold content */
+.work-section {
+  border-radius: 10px;
+  margin: 25px;
+  padding-bottom: 25px;
+}
+
+/* Setting gradient background for each work page */
+#work-art {
+  background-image: linear-gradient(to bottom, #C6F0B7, #5EC0BB);
+}
+
+#work-science {
+  background-image: linear-gradient(to bottom, #FFEFC4, #FFD199);
+}
+
+#work-ling {
+  background-image: linear-gradient(to bottom, #FFE9ED, #C9BEE4);
+}
+
+#work-ldm {
+  background-image: linear-gradient(to bottom, #BCE9F8, #B8AADC);
+}
+
+/* Styles for image on work pages*/
+.work-img {
+  display: block;
+  width: 90%;
+  margin-left: 10%;
+  border: 5px solid #181818;
+  border-radius: 15px;
+}
+
+/* Styles for text on work pages*/
+.work-desc {
+  font-size: 1.1em;
+  line-height: 1.6;
+  width: 90%;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+/* Styles for Main Work page */
+/* Setting background images*/
+.work-bg {
+  height: 800px;
+  width: 1100px;
+  margin: auto;
+  background-image: url("../images/work-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Styles for container boxes for planets */
+.box {
+  position: relative;
+}
+
+.planet-contain {
+  margin-bottom: 0px;
+  position: relative;
+}
+
+/* Style for all planets */
+.planet {
+  display: block;
+  width: 100%;
+}
+
+/* Arranging each planet */
+#planet1 {
+  width: 120px;
+  margin-left: 920px;
+  padding-top: 150px;
+}
+
+#planet2 {
+  width: 120px;
+  margin-left: 370px;
+  margin-top: -50px;
+}
+
+#planet3 {
+  width: 150px;
+  margin-left: 850px;
+  margin-top: 0px;
+}
+
+#planet4 {
+  width: 150px;
+  margin-left: 100px;
+  margin-top: -100px;
+}
+
+/* Creating overlay for all planets */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background-color: rgb(0, 0, 0, 0);
+  border-radius: 500px;
+}
+
+.planet-contain:hover .overlay {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+/* Style for text in overlay */
+.planet-name {
+  color: #000000;
+  font-size: 20px;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#planet4-name {
+  color: #FFFFFF;
+}
+
+/* Media Queries */
+/* For devices smaller than 1100px */
+@media (max-width: 1100px) {
+
+  /* Adjusting planet spacing for home page */
+  .work-bg {
+    height: 500px;
+    width: 800px;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+  }
+
+  #planet1 {
+    width: 120px;
+    margin-left: 500px;
+    padding-top: 20px;
+  }
+
+  #planet2 {
+    width: 110px;
+    margin-left: 250px;
+    margin-top: -50px;
+  }
+
+  #planet3 {
+    width: 120px;
+    margin-left: 100px;
+    margin-top: -50px;
+  }
+
+  #planet4 {
+    width: 120px;
+    margin-left: 550px;
+    margin-top: -100px;
+  }
+
+  /* Adjusting text font-size */
+  .work-desc {
+    font-size: 1em;
+  }
+}
+
+/* For devices smaller than medium*/
+@media (max-width: 768px) {
+
+  /* Adjusting text and image margins for individual work pages */
+  .work-desc {
+    margin: auto;
+  }
+
+  .work-img {
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}

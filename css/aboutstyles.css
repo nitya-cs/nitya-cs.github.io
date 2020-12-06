@@ -1,0 +1,104 @@
+/* Styles for About page */
+/* Styles for sections in about page */
+.about-sec {
+  font-family: Biotif-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  line-height: 1.7;
+  margin: 0px;
+  padding: 50px 20px;
+}
+
+/* Background colors for sections in about page */
+#about-sec1 {
+  background-color: #FFFFFD;
+}
+
+#about-sec2 {
+  background-color: #FFFAF9;
+}
+
+/* Styles for images in about page*/
+#profileimg {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.skillimg {
+  height: 250px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* Styles for text in about page*/
+#about {
+  padding-left: 75px;
+}
+
+.skill {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+/* Styles for journey boxes*/
+.jr {
+  max-width: 350px;
+  margin: 15px auto;
+  padding: 10px;
+  font-size: 1.1em;
+  text-align: center;
+  box-shadow: 2px 2px 1px #D3D3D3;
+  border-radius: 5px;
+}
+
+/* Background color for each journey box */
+#jr1 {
+  background-color: #BEEBE9;
+}
+
+#jr2 {
+  background-color: #D0C2F7;
+}
+
+#jr3 {
+  background-color: #ffb6b9;
+}
+
+#jr4 {
+  background-color: #dcedc1;
+}
+
+#jr5 {
+  background-color: #FFE7A7;
+}
+
+#jr6 {
+  background-color: #8ED2E0;
+}
+
+/* Margins for alternate boxes */
+#jr1, #jr3, #jr5 {
+  margin-right: -10px;
+}
+
+#jr2, #jr4, #jr6 {
+  margin-left: -10px;
+}
+
+/* Media Queries */
+/* For devices smaller than 1100px */
+@media (max-width: 1100px) {
+
+  /* Adjusting margins of jounrey divs in about page*/
+  #jr1, #jr3, #jr5 {
+    margin-left: 15px;
+    margin-right: auto;
+  }
+
+  #jr2, #jr4, #jr6 {
+    margin-right: 15px;
+    margin-left: auto;
+  }
+}
