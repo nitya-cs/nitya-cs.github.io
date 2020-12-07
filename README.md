@@ -8,7 +8,7 @@ To view the website, please visit: https://nitya-cs.github.io/about.html
 The website has 3 main sections: 
 1. My Work (Home Page)
     Files:  index.html
-    Individual sub-page files:
+         Individual sub-page files:
             ling.html
             science.html
             art.html
