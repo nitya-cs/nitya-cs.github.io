@@ -7,18 +7,17 @@ To view the website, please visit: https://nitya-cs.github.io/about.html
 
 The website has 3 main sections: 
 1. My Work (Home Page)
-    
-    Files:  "index.html"
-        Individual sub-page files:
-            "ling.html"
-            "science.html"
-            "art.html"
-            "ldm.html"
+Files:  "index.html"
+Individual sub-page files:
+"ling.html"
+"science.html"
+"art.html"
+"ldm.html"
     
 2. My Artwork 
-     Files:  artwork.html
+Files:  artwork.html
     
 3. About me
-     Files:  about.html
+Files:  about.html
     
 
