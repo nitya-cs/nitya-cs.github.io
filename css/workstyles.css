@@ -45,6 +45,12 @@
 }
 
 /* Styles for Main Work page */
+
+#work-intro{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Setting background images*/
 .work-bg {
   height: 800px;
