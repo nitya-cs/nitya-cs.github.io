@@ -142,6 +142,11 @@
 /* Media Queries */
 /* For devices smaller than 1100px */
 @media (max-width: 1100px) {
+  
+  /* Adjusting width of intro to match image */
+  #work-intro{
+    min-width: 800px;
+  }
 
   /* Adjusting planet spacing for home page */
   .work-bg {
